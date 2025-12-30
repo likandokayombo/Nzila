@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply font-sans;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    background-color:  #FFFFFF;
+    font-family: 'SpaceGrotesk-Medium', sans-serif;
+  }
+}
+
+/* Custom font */
+@font-face {
+  font-family: 'SpaceGrotesk-Medium';
+  src: url('./assets/fonts/SpaceGrotesk-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
+
+
+html,
+body {
+  width: 100%;
+  max-width: 100%;
+  overflow-x: hidden;
+}
