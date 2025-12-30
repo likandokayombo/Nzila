@@ -15,10 +15,10 @@ export default function App() {
       <main className="w-full max-w-full overflow-x-hidden">
         <Hero />
         <BrandLogo />
-        <WomanFocus />
-        <NzilaCollection />
         <ImageCards />
+        <NzilaCollection />
         <Products />
+        <WomanFocus />   
         <Newsletter />
       </main>
     </div>
