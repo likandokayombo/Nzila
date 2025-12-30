@@ -1,73 +1,60 @@
-# React + TypeScript + Vite
+# Nzila — Community & Culture Platform
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Nzila is a modern fashion brand focused on **style, culture, and community**.  
+It brings together fashion, storytelling, and contemporary African inspired design into a clean, accessible experience.
 
-Currently, two official plugins are available:
+Nzila is built to showcase collections, highlight culture driven content, and create a strong connection between the brand and its audience.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+##  Brand Overview
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+**Nzila** represents:
+- Creativity rooted in culture  
+- Minimal, expressive design  
+- Community first storytelling  
+- Modern fashion 
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+##  Product Purpose
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+Nzila aims to:
+- Showcase fashion collections and cultural stories
+- Build a digital community around style & identity
+---
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+## Figma Design (Open for Experimentation)
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+Designers and developers are welcome to explore and experiment with the design system.
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+**Figma File:**  
+https://www.figma.com/design/L8YRdjIdrGd1LzirabEjzl/Nzila--Community-?node-id=23-5&t=1JquYMZvbzTQDoaX-0
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+The Figma file includes:
+- Desktop-first layouts
+- Component-based structure
+- Typography, spacing, and layout guidance
+- Navigation, hero sections, and content blocks
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+> Tip: Use Figma Inspect or Dev Mode (if available) to extract spacing, fonts, and colors.
+
+---
+
+## 🛠️ Tech Stack (Recommended)
+
+This project works well with:
+- **React / Next.js**
+- **TypeScript**
+- **Tailwind CSS**
+- **Framer Motion** (for animations)
+- **Vite** (if not using Next.js)
+
+---
+
+## 🚀 Getting Started (Developers)
+
+1. Clone the repository
+2. Install dependencies
+   ```bash
+   npm install
