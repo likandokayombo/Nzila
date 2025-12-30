@@ -1,15 +1,24 @@
 export default function Newsletter() {
   return (
-    <section className="w-full bg-gray-100 py-16 px-6 flex flex-col items-center text-center">
-      <h2 className="text-3xl font-semibold mb-4">Subscribe to Our Newsletter</h2>
-      <p className="mb-6 max-w-md">Get the latest updates on new products and special offers.</p>
-      <div className="flex space-x-2 w-full max-w-md">
+    <section className="w-full py-12 md:py-16 px-4 sm:px-6 flex flex-col items-center text-center">
+      <h2 className="text-2xl md:text-3xl font-semibold mb-3">
+        Subscribe to Our Newsletter
+      </h2>
+
+      <p className="mb-6 max-w-md text-sm md:text-base">
+        Get the latest updates on new products and special offers.
+      </p>
+
+      <div className="flex flex-col sm:flex-row gap-3 w-full max-w-md">
         <input
           type="email"
-          placeholder="Enter your email"
-          className="flex-1 px-4 py-2 border border-gray-300 rounded-md"
+          placeholder="luccy@gmail.com"
+          className="w-full px-4 py-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-black"
         />
-        <button className="px-4 py-2 bg-black text-white rounded-md">Subscribe</button>
+
+        <button className="w-full sm:w-auto px-6 py-3 bg-gray-400 text-black rounded-md">
+          Subscribe
+        </button>
       </div>
     </section>
   )

@@ -6,6 +6,7 @@ import NzilaCollection from '@/components/NzilaCollection'
 import ImageCards from '@/components/ImageCards'
 import Newsletter from '@/components/Newsletter'
 import Products from '@/components/Products'
+import Footer  from '@/components/Footer'
 
 export default function App() {
   return (
@@ -18,8 +19,9 @@ export default function App() {
         <ImageCards />
         <Products />
         <WomanFocus />   
+         <Newsletter />
         <NzilaCollection />
-        <Newsletter />
+        <Footer />
       </main>
     </div>
   )
