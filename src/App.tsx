@@ -16,9 +16,9 @@ export default function App() {
         <Hero />
         <BrandLogo />
         <ImageCards />
-        <NzilaCollection />
         <Products />
         <WomanFocus />   
+        <NzilaCollection />
         <Newsletter />
       </main>
     </div>
